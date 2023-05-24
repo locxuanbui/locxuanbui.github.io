@@ -1,14 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "webrick"
 gem "github-pages", group: :jekyll_plugins
-gem "jekyll-remote-theme"
 
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-gem "minimal-mistakes-jekyll"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
